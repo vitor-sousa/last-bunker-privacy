@@ -39,4 +39,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/privacy/en" />
     <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/privacy/es" />
   </url>
+  <url>
+    <loc>https://last-bunker-privacy.vercel.app/app-ads.txt</loc>
+    <xhtml:link rel="alternate" href="https://last-bunker-privacy.vercel.app/app-ads.txt" />
+  </url>
 </urlset>
