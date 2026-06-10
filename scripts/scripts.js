@@ -1,13 +1,13 @@
 const pagePaths = {
   index: {
-    pt: '../pt',
-    en: '../',
-    es: '../es'
+    pt: '/pt',
+    en: '/',
+    es: '/es'
   },
   privacy: {
-    pt: '../privacy',
-    en: '../privacy/en.html',
-    es: '../privacy/es'
+    pt: '/privacy',
+    en: '/privacy/en',
+    es: '/privacy/es'
   }
 };
 
@@ -16,16 +16,16 @@ function getCurrentPath() {
 }
 
 function getActiveLang(path) {
-  if (path.includes('/es')) return 'es';
-  if (path.includes('en.html')) return 'en';
-  if (path.includes('/pt')) return 'pt';
-  if (path.includes('/privacy') && !path.includes('en.html') && !path.includes('/es')) return 'pt';
-  if (path === '/' || path === '') return 'en';
+  if (path === '/es' || path.startsWith('/es/')) return 'es';
+  if (path === '/pt' || path.startsWith('/pt/')) return 'pt';
+  if (path === '/privacy/es' || path.startsWith('/privacy/es/')) return 'es';
+  if (path === '/privacy/en' || path.startsWith('/privacy/en/')) return 'en';
+  if (path === '/privacy' || path.startsWith('/privacy/')) return 'pt';
   return 'en';
 }
 
 function getPageType(path) {
-  return path.includes('/privacy') ? 'privacy' : 'index';
+  return path.startsWith('/privacy') ? 'privacy' : 'index';
 }
 
 function updateLanguageButtons(activeLang) {
@@ -46,19 +46,12 @@ function initLanguageSwitcher() {
   const path = getCurrentPath();
   const pageType = getPageType(path);
   const activeLang = getActiveLang(path);
-  const storedLang = localStorage.getItem('siteLang');
-  const browserLang = navigator.language.toLowerCase();
-  const preferredLang = storedLang || (browserLang.startsWith('pt') ? 'pt' : browserLang.startsWith('es') ? 'es' : 'en');
 
   updateLanguageButtons(activeLang);
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => redirectToLang(pageType, btn.dataset.lang));
   });
-
-  if (!storedLang && activeLang !== preferredLang) {
-    redirectToLang(pageType, preferredLang);
-  }
 }
 
 function updateYear() {
