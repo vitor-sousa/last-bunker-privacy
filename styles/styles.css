@@ -136,40 +136,14 @@ h1 { margin: 18px 0 16px; font-size: clamp(42px, 7vw, 78px); line-height: .95; l
   box-shadow: var(--shadow), 0 0 60px rgba(53,120,255,.15);
   overflow: hidden;
 }
-.phone-card::before { content: ""; position: absolute; inset: 18px; border-radius: 24px; border: 1px solid rgba(116,215,255,.16); pointer-events: none; }
-.game-ui {
-  position: relative; height: 100%; min-height: 484px; border-radius: 24px; padding: 18px;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(116,215,255,.16), transparent 35%),
-    linear-gradient(180deg, #091629, #060b14);
-  border: 1px solid rgba(255,255,255,.08);
+.phone-card img {
+  position: relative; border-radius: 24px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
-.game-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
-.pill { border-radius: 999px; padding: 8px 11px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.09); color: #dbe9ff; font-size: 12px; font-weight: 900; }
-.bunker-panel {
-  border-radius: 22px; min-height: 128px;
-  background:
-    radial-gradient(circle at 50% 10%, rgba(255,212,107,.28), transparent 28%),
-    linear-gradient(135deg, rgba(54, 73, 96, .9), rgba(9, 17, 31, .96));
-  border: 1px solid rgba(255,255,255,.14); margin-bottom: 18px; position: relative; overflow: hidden;
-}
-.bunker-panel::before {
-  content: ""; position: absolute; left: 50%; bottom: 0; width: 190px; height: 82px; transform: translateX(-50%);
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.12), transparent 35%),
-    linear-gradient(90deg, #1d2d42, #344962, #1d2d42);
-  clip-path: polygon(10% 100%, 16% 42%, 34% 18%, 50% 0, 66% 18%, 84% 42%, 90% 100%);
-  filter: drop-shadow(0 0 18px rgba(116,215,255,.16));
-}
-.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; }
-.cell {
-  aspect-ratio: 1; border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
-  border: 1px solid rgba(255,255,255,.1); display: grid; place-items: center; position: relative; overflow: hidden;
-}
-.unit::before, .zombie::before { content: ""; width: 46%; height: 56%; border-radius: 14px 14px 18px 18px; display: block; filter: drop-shadow(0 0 14px currentColor); }
-.unit::before { background: linear-gradient(180deg, #74d7ff, #3578ff); color: #74d7ff; }
-.zombie::before { background: linear-gradient(180deg, #ff6a7f, #6a0c18); color: #ff4668; }
 .features { padding: 34px 0 56px; }
 .section-title { text-align: center; margin-bottom: 28px; }
 .section-title h2 { font-size: clamp(30px, 4vw, 48px); margin: 0 0 10px; letter-spacing: -1px; }
