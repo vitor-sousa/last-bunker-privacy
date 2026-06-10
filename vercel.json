@@ -14,12 +14,20 @@
       "destination": "/pages/index/en.html"
     },
     {
+      "source": "/en",
+      "destination": "/pages/index/en.html"
+    },
+    {
       "source": "/pt",
       "destination": "/pages/index/index.html"
     },
     {
       "source": "/es",
       "destination": "/pages/index/es.html"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/assets/favicon/favicon.ico"
     },
     {
       "source": "/privacy",
