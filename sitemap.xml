@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://SEU-DOMINIO.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://SEU-DOMINIO.com/" />
+    <loc>https://last-bunker-privacy.vercel.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://last-bunker-privacy.vercel.app/" />
   </url>
   <url>
-    <loc>https://SEU-DOMINIO.com/pt</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://SEU-DOMINIO.com/" />
+    <loc>https://last-bunker-privacy.vercel.app/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://last-bunker-privacy.vercel.app/" />
   </url>
   <url>
-    <loc>https://SEU-DOMINIO.com/es</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/pt" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/es" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://SEU-DOMINIO.com/" />
+    <loc>https://last-bunker-privacy.vercel.app/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://last-bunker-privacy.vercel.app/" />
   </url>
   <url>
-    <loc>https://SEU-DOMINIO.com/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/privacy/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/privacy/es" />
+    <loc>https://last-bunker-privacy.vercel.app/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/privacy/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/privacy/es" />
   </url>
   <url>
-    <loc>https://SEU-DOMINIO.com/privacy/en</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/privacy/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/privacy/es" />
+    <loc>https://last-bunker-privacy.vercel.app/privacy/en</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/privacy/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/privacy/es" />
   </url>
   <url>
-    <loc>https://SEU-DOMINIO.com/privacy/es</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://SEU-DOMINIO.com/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://SEU-DOMINIO.com/privacy/en" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://SEU-DOMINIO.com/privacy/es" />
+    <loc>https://last-bunker-privacy.vercel.app/privacy/es</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://last-bunker-privacy.vercel.app/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://last-bunker-privacy.vercel.app/privacy/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://last-bunker-privacy.vercel.app/privacy/es" />
   </url>
 </urlset>
